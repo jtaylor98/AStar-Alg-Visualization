@@ -13,4 +13,5 @@ This is a simple implementation of the A-Star search algorithm through the use o
 
 # Requirements
 Python 3.8.2
+
 Pygame
