@@ -12,5 +12,5 @@ This is a simple implementation of the A-Star search algorithm through the use o
 - Press C to clear grid
 
 # Requirements
-Python 3.8.2
-Pygame
+- Python 3.8.2
+- Pygame
