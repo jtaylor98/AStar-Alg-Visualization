@@ -104,7 +104,7 @@ def dist(p1, p2): #using manhattan distance formula since only can move four dir
     x2, y2 = p2
     return abs(x1 - x2) + abs(y1 - y2)
 
-def reset_grid(grid): 
+def clear_grid(grid): 
     for row in grid:
         for elem in row:
             elem.set_type(OPEN_TYPES["NEUTRAL"])
@@ -211,8 +211,8 @@ def main():
                 if start is not None and goal is not None:
                     astar_alg(lambda: draw_grid(win, grid, rect_dim) , start, goal, grid)
                 
-            if event.type == pg.KEYDOWN and event.key == pg.K_r: #clearing and resetting grid
-                reset_grid(grid)
+            if event.type == pg.KEYDOWN and event.key == pg.K_c: #clearing and resetting grid
+                clear_grid(grid)
                 start = None
                 goal = None
     pg.quit()
