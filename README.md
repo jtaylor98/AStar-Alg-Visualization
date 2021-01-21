@@ -1,5 +1,5 @@
-# AStar-Alg-Visualization
+# AStar-Algorithm-Visualization
+--------------------------------
+--------------------------------
 
-This is a simple implementation of the `a-star path finding
-algorithm <https://en.wikipedia.org/wiki/A*_search_algorithm>`__ in
-python
+This is a simple implementation of the A-Star search algorithm through the use of pygame module
