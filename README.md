@@ -1,5 +1,5 @@
 # AStar-Algorithm-Visualization
-This is a simple implementation of the A-Star search algorithm illustrated on a coordinate grid 
+This is a simple implementation of the A* search algorithm illustrated on a coordinate grid 
 
 ## Instructions
 - The first click by the user's mouse will draw the starting point
